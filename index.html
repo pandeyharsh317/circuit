@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours & Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logocircuite.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero">
+            <h2>Explore the World with Us</h2>
+            <p>Book your next adventure with ease</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="intro">
+            <h2>Discover Breathtaking Destinations</h2>
+            <p>From serene beaches to majestic mountains, we offer packages for every traveler. Let us guide you to your
+                next unforgettable experience.</p>
+        </section>
+    </main>
+
+    <!-- slider start -->
+    <div class="travel-slider">
+        <div class="slider-container">
+            <!-- Slide 1 -->
+            <div class="travel-slide active">
+                <img src="images/destination1.jpg" alt="Tropical Beach">
+                <div class="slide-caption">
+                    <h2>Tropical Beach Paradise</h2>
+                    <p>Relax on the white sandy beaches and enjoy crystal-clear waters.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="travel-slide">
+                <img src="images/destination2.jpg" alt="Mountain Adventure">
+                <div class="slide-caption">
+                    <h2>Mountain Adventure</h2>
+                    <p>Explore the breathtaking mountain trails and connect with nature.</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="travel-slide">
+                <img src="images/destination3.jpg" alt="City Tour">
+                <div class="slide-caption">
+                    <h2>City Exploration</h2>
+                    <p>Discover the rich culture and vibrant streets of iconic cities.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+        <!-- Dots Indicators -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <!-- slider close -->
+
+
+
+    <!-- gallery -->
+      <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2>Explore Our Destinations</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/destination1.jpg" alt="Destination 1">
+                <div class="gallery-item-info">
+                    <h3>Serene Beaches</h3>
+                    <p>Relax and unwind by the crystal-clear waters.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/VishwanathVaranasi.jpg" alt="Destination 2">
+                <div class="gallery-item-info">
+                    <h3>Mountain Adventures</h3>
+                    <p>Conquer majestic peaks and breathe fresh air.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Vishwanath_Front.jpg" alt="Destination 3">
+                <div class="gallery-item-info">
+                    <h3>City Escapes</h3>
+                    <p>Explore vibrant cities and their unique cultures.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/ARTI_3.jpg" alt="Destination 4">
+                <div class="gallery-item-info">
+                    <h3>Desert Safaris</h3>
+                    <p>Experience the thrill of the vast, golden dunes.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/ARTI_1.jpg" alt="Destination 5">
+                <div class="gallery-item-info">
+                    <h3>Rainforest Retreats</h3>
+                    <p>Get lost in the lush, green landscapes of the rainforest.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/ARTI.jpg" alt="Destination 6">
+                <div class="gallery-item-info">
+                    <h3>Snowy Escapes</h3>
+                    <p>Enjoy a winter wonderland with snow-capped mountains.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- gallery close -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Tours & Travels</h3>
+                <p>We specialize in creating unforgettable travel experiences for adventurers and explorers across the
+                    globe.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@toursandtravels.com</p>
+                <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Wanderlust St, Travel City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tours & Travels | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="js/slider-script.js"></script>
+    <!-- new -->
+</body>
+
+</html>

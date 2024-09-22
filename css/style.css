@@ -17,7 +17,7 @@ a {
 
 /* Header Section */
 .header {
-    background-image: url('/images/GHAT_BOAT.jpg');
+    background-image: url('images/GHAT_BOAT.jpg');
     background-size: cover;
     background-position: center;
     color: white;
